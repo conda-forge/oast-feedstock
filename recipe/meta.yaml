@@ -1,5 +1,5 @@
 {% set name = "oast" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/oast-{{ version }}.tar.gz
-  sha256: b1d2c5d94f33404e302cae19ffb096c4a94af74c2585254cb7451e1ba6dc4fcb
+  sha256: 5b245bc13fe6c745a8b4df2d87d770e0bfc7e7e5d23db4c6b778a36fefdf4bfd
 
 build:
   entry_points:
